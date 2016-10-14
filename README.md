@@ -1,10 +1,24 @@
 # ChatImageView
+[![](https://jitpack.io/v/nyakokishi/ChatImageView.svg)](https://jitpack.io/#nyakokishi/ChatImageView)
 一个实现图片气泡效果的自定义View
 # 使用
-### gradle配置
+### gradle
+Step 1. Add the JitPack repository to your build file
 ```
-compile 'io.github.leibnik:chatimageview:1.0.1'
+allprojects {
+    repositories {
+        ...
+        maven { url "https://jitpack.io" }
+    }
+}
 ```
+Step 2. Add the dependency
+```
+dependencies {
+    compile 'com.github.nyakokishi:ChatImageView:1.0.2'
+}
+```
+
 ### xml配置
 #### 使用.9.png时需指定`app:ninePNG`属性，此时图片的气泡效果由`xfermode`实现
 ```xml
