@@ -137,7 +137,7 @@ public class ChatImageView extends ImageView {
         path.lineTo(rectF.right - mRadius - mArrowWidth, rectF.top);
         // top right corner
         path.arcTo(new RectF(rectF.right - mArrowWidth - 2 * mRadius, rectF.top
-                , rectF.right - mArrowHeight, rectF.top + 2 * mRadius), 270, 90);
+                , rectF.right - mArrowWidth, rectF.top + 2 * mRadius), 270, 90);
         // right arrow
         path.lineTo(rectF.right - mArrowWidth, rectF.top + mArrowTop);
         path.lineTo(rectF.right, rectF.top + mArrowTop + mArrowOffset);
